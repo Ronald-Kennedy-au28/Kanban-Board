@@ -57,9 +57,10 @@ textArea.addEventListener("keydown",(e)=>{
 
 // Ticket and deleting it
 function createTicket(ticketId,text,color){
-    if(text == "")
+    if(text == ""){
         alert("Task cannot be empty");
         return
+    }
     let id ;
     if(ticketId){
         id = ticketId
